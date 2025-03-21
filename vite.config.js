@@ -7,4 +7,7 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()
   ],
+  optimizeDeps: {
+    exclude: ['@fullcalendar/react', '@fullcalendar/daygrid'],
+  },
 })

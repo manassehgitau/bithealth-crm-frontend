@@ -1,6 +1,9 @@
 primary  #1551ff
-
+        #ffffff
 
 dark Mode: #232323
+        #ffffff
 
+Note:
+    Utilize gradients in charts 
 use: https://www.behance.net/gallery/93156527/Project-Management-UX-Case-Study
