@@ -26,3 +26,4 @@ dist-ssr
 # credentials and personal settings
 .vscode
 .env
+.vercel
