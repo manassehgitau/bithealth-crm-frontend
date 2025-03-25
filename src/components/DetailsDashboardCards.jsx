@@ -25,7 +25,7 @@ function DetailsDashboardCards({ icon, title, value, bgColor, iconBgColor, descr
           <span className='text-3xl text-gray-500'>{icon}</span>
         </div>
 
-        <div className={`text-xs lg:text-sm text-black font-bold px-3 py-1 rounded-2xl ${profitMargin < 0 ? 'bg-warning-red' : 'bg-success-green'}`}>
+        <div className={`text-xs xl:text-sm text-black font-bold px-3 py-1 rounded-2xl ${profitMargin < 0 ? 'bg-warning-red' : 'bg-success-green'}`}>
           {profitMargin < 0 ? (
             <div>{profitMargin.toFixed(0)}% </div>
           ) : (

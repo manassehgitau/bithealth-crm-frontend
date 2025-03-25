@@ -42,7 +42,7 @@ function AdminDashboardHero() {
                     </div>
                     <div className='flex flex-row justify-between gap-7'>
                     <h3>Price</h3>
-                        <div className={`text-sm text-black font-bold px-3 py-1 rounded-2xl ${profitMargin < 0 ? 'bg-warning-red' : 'bg-success-green'}`}>
+                        <div className={`text-xs xl:text-sm text-black font-bold px-3 py-1 rounded-2xl ${profitMargin < 0 ? 'bg-warning-red' : 'bg-success-green'}`}>
                             {profitMargin < 0 ? (
                                 <div>{profitMargin.toFixed(2)}% </div>
                             ) : (
@@ -60,7 +60,7 @@ function AdminDashboardHero() {
                     </div>
                     <div className='flex flex-row justify-between gap-7'>
                     <h3>Price</h3>
-                        <div className={`text-sm text-black font-bold px-3 py-1 rounded-2xl ${profitMargin < 0 ? 'bg-warning-red' : 'bg-success-green'}`}>
+                        <div className={`text-xs xl:text-sm text-black font-bold px-3 py-1 rounded-2xl ${profitMargin < 0 ? 'bg-warning-red' : 'bg-success-green'}`}>
                             {profitMargin < 0 ? (
                                 <div>{profitMargin.toFixed(2)}% </div>
                             ) : (
@@ -78,7 +78,7 @@ function AdminDashboardHero() {
                     </div>
                     <div className='flex flex-row justify-between gap-7'>
                     <h3>Price</h3>
-                        <div className={`text-sm text-black font-bold px-3 py-1 rounded-2xl ${profitMargin < 0 ? 'bg-warning-red' : 'bg-success-green'}`}>
+                        <div className={`text-xs xl:text-sm text-black font-bold px-3 py-1 rounded-2xl ${profitMargin < 0 ? 'bg-warning-red' : 'bg-success-green'}`}>
                             {profitMargin < 0 ? (
                                 <div>{profitMargin.toFixed(2)}% </div>
                             ) : (

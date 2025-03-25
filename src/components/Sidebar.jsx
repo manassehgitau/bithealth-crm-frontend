@@ -13,41 +13,41 @@ function Sidebar() {
       </div>
         
         <ul className='flex flex-col mt-5 text-xl'>
-            <h3 className='my-2 font-semibold hidden lg:inline'>Menu</h3>
+            <h3 className='my-2 font-semibold text-md hidden lg:inline'>Menu</h3>
             <div className='flex flex-col justify-center ml-2'>
-              <li className='flex items-center py-3 md:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-md font-light hover:bg-purple-default hover:text-white'>
+              <li className='flex items-center py-3 md:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-sm font-light hover:bg-purple-default hover:text-white'>
                   <FaTachometerAlt />
                   <span className='hidden lg:inline'>Dashboard</span>
               </li>
-              <li className='flex items-center py-3 lg:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-md font-light hover:bg-purple-default hover:text-white'>
+              <li className='flex items-center py-3 lg:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-sm font-light hover:bg-purple-default hover:text-white'>
                   <TbReportAnalytics />
                   <span className='hidden lg:inline'>Reports</span>
               </li>
-              <li className='flex items-center py-3 lg:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-md font-light hover:bg-purple-default hover:text-white'>
+              <li className='flex items-center py-3 lg:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-sm font-light hover:bg-purple-default hover:text-white'>
                   <FaBox />
                   <span className='hidden lg:inline'>Products</span>
               </li>
-              <li className='flex items-center py-3 lg:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-md font-light hover:bg-purple-default hover:text-white'>
+              <li className='flex items-center py-3 lg:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-sm font-light hover:bg-purple-default hover:text-white'>
                   <FaUsers />
                   <span className='hidden lg:inline'>Consumers</span>
               </li>
             </div>
             
-            <h3 className='my-2 font-semibold hidden lg:inline'>Financial</h3>
+            <h3 className='my-2 font-semibold text-md hidden lg:inline'>Financial</h3>
             <div className='flex flex-col justify-center ml-2'>
-              <li className='flex items-center py-3 lg:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-md font-light hover:bg-purple-default hover:text-white'>
+              <li className='flex items-center py-3 lg:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-sm font-light hover:bg-purple-default hover:text-white'>
                   <AiOutlineTransaction />
                   <span className='hidden lg:inline'>Transactions</span>
               </li>
-              <li className='flex items-center py-3 lg:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-md font-light hover:bg-purple-default hover:text-white'>
+              <li className='flex items-center py-3 lg:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-sm font-light hover:bg-purple-default hover:text-white'>
                   <TbInvoice />
                   <span className='hidden lg:inline'>Invoice</span>
               </li>
             </div>
             
-            <h3 className='my-2 font-semibold hidden lg:inline'>Tools</h3>
+            <h3 className='my-2 font-semibold text-md hidden lg:inline'>Tools</h3>
             <div className='flex flex-col justify-center ml-2'>
-            <li className='flex items-center py-3 lg:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-md font-light hover:bg-purple-default hover:text-white'>
+            <li className='flex items-center py-3 lg:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-sm font-light hover:bg-purple-default hover:text-white'>
                 <FaCog />
                 <span className='hidden lg:inline'>Settings</span>
             </li>
