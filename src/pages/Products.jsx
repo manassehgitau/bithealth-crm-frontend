@@ -2,11 +2,10 @@ import React from 'react'
 import Sidebar from '../components/Sidebar'
 import ThemeContextProvider from '../context/ThemeContextProvider'
 import Navbar from '../components/Navbar'
-import AdminDashboardHero from './AdminDashboardHero'
 import Footer from '../components/Footer'
+import ProductTable from './ProductsView'
 
-
-function AdminPage() {
+function Products() {
   return (
     <ThemeContextProvider>
       <div className='font-roboto'>
@@ -16,14 +15,16 @@ function AdminPage() {
 
         <div className='grow md:ml-16 lg:ml-64 bg-gray-200 text-gray-900 dark:bg-dark-contrast dark:text-white'>
             <Navbar />
-            <AdminDashboardHero />
+            <ProductTable />
+            <Footer />
+
         </div>
         <div className='grow md:ml-16 lg:ml-64 bg-gray-200 text-gray-900 dark:bg-dark-contrast dark:text-white'>
-          <Footer />
         </div>
       </div>
     </ThemeContextProvider>
   )
 }
 
-export default AdminPage
+export default Products
+

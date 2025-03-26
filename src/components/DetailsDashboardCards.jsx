@@ -1,22 +1,6 @@
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 
-function DetailsDashboardCards({ icon, title, value, bgColor, iconBgColor, description, textColor }) {
-  const prevValueRef = useRef();
-
-  // Store current value as previous value after render
-  useEffect(() => {
-    prevValueRef.current = value;
-  }, [value]);
-
-  const prevValue = prevValueRef.current || 1; // Default previous value to 1 if no previous value exists
-  // console.log(prevValue);
-  // console.log(value);
-
-  const getProfitMargins = () => {
-    return ((value - prevValue) / prevValue) * 100;
-  }
-
-  const profitMargin = prevValue === value ? (0) : (getProfitMargins()) ;
+function DetailsDashboardCards({ icon, title, value, bgColor, iconBgColor, description, textColor, profitMargin }) {
 
   return (
     <div className={`${textColor} px-4 md:pl-8 py-7 space-x-6 rounded-3xl shadow-md flex-col items-between justify-center gap-2 ${bgColor}`}>
@@ -26,11 +10,7 @@ function DetailsDashboardCards({ icon, title, value, bgColor, iconBgColor, descr
         </div>
 
         <div className={`text-xs xl:text-sm text-black font-bold px-3 py-1 rounded-2xl ${profitMargin < 0 ? 'bg-warning-red' : 'bg-success-green'}`}>
-          {profitMargin < 0 ? (
-            <div>{profitMargin.toFixed(0)}% </div>
-          ) : (
-            <div>+ {profitMargin.toFixed(0)}% </div>
-          )}
+          {profitMargin}
         </div>
       </div>
 
