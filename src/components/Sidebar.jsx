@@ -2,7 +2,7 @@ import React from 'react'
 import { FaBox, FaCog, FaTachometerAlt, FaUsers } from "react-icons/fa";
 import { TbReportAnalytics, TbInvoice } from "react-icons/tb";
 import { AiOutlineTransaction } from "react-icons/ai";
-
+import { Link } from 'react-router-dom';
 
 function Sidebar() {
   return (
@@ -15,18 +15,27 @@ function Sidebar() {
         <ul className='flex flex-col mt-5 text-xl'>
             <h3 className='my-2 font-semibold text-md hidden lg:inline'>Menu</h3>
             <div className='flex flex-col justify-center ml-2'>
-              <li className='flex items-center py-3 md:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-sm font-light hover:bg-purple-default hover:text-white'>
-                  <FaTachometerAlt />
-                  <span className='hidden lg:inline'>Dashboard</span>
-              </li>
+              <Link to='/adminDashboard'>
+                  <li className='flex items-center py-3 md:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-sm font-light hover:bg-purple-default hover:text-white'>
+                      <FaTachometerAlt />
+                      <span className='hidden lg:inline'>Dashboard</span>
+                  </li>
+              </Link>
+
+              <Link to='/products'>
+                <li className='flex items-center py-3 lg:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-sm font-light hover:bg-purple-default hover:text-white'>
+                    <FaBox />
+                    <span className='hidden lg:inline'>Products</span>
+                </li>
+              </Link>
+              
+              <Link to='/employees'>
               <li className='flex items-center py-3 lg:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-sm font-light hover:bg-purple-default hover:text-white'>
                   <TbReportAnalytics />
-                  <span className='hidden lg:inline'>Reports</span>
+                  <span className='hidden lg:inline'>Employees</span>
               </li>
-              <li className='flex items-center py-3 lg:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-sm font-light hover:bg-purple-default hover:text-white'>
-                  <FaBox />
-                  <span className='hidden lg:inline'>Products</span>
-              </li>
+              </Link>
+              
               <li className='flex items-center py-3 lg:py-2 lg:px-4 my-1 lg:space-x-4 hover:cursor-pointer rounded-4xl text-sm font-light hover:bg-purple-default hover:text-white'>
                   <FaUsers />
                   <span className='hidden lg:inline'>Consumers</span>
