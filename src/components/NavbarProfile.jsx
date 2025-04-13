@@ -31,7 +31,7 @@ function NavbarProfile() {
   return (
     <div className='flex space-x-5 items-center md:pr-5'>
       <div className='cursor-pointer'>
-        <img src="./assets/imgs/person-placeholder.jpg" alt="A placeholder of a person" className='w-10 h-10 md:w-10 md:h-10 rounded-full'/>
+        <img src="/person-placeholder.jpg" alt="A placeholder of a person" className='w-10 h-10 md:w-10 md:h-10 rounded-full'/>
       </div>
       <div className='hidden lg:inline'>
         <h3 className='font-bold text-gray-900 dark:text-white text-lg'>{user.name}</h3>

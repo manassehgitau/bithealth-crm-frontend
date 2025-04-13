@@ -60,7 +60,7 @@ const ProductTable = () => {
             {products.map((product, index) => (
               <tr
                 key={product._id}
-                className=" border-gray-700 dark:border-gray-300 border-b hover:bg-purple-default cursor-pointer rounded-2xl"
+                className=" border-gray-700 dark:border-gray-300 border-b hover:bg-purple-default hover:text-white cursor-pointer rounded-2xl"
                 onClick={() => handleRowClick(product._id)}
               >
                 <td className="py-3 px-6 text-left">{index + 1}</td>

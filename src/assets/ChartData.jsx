@@ -1,12 +1,16 @@
-export const dataLine = {
-    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-    datasets: [
-        {
-            label: 'Sales',
-            data: [65, 59, 80, 81, 56, 55, 60],
-            fill: false,
-            backgroundColor: 'rgba(75,192,192,0.4)',
-            borderColor: 'rgba(75,192,192,1)',
-        },
-    ],
-};
+export const dailyRevenue = [
+  { date: "2025-03-29", value: 1200 },
+  { date: "2025-03-30", value: 1500 },
+  { date: "2025-03-31", value: 1800 },
+  { date: "2025-04-01", value: 2200 },
+  { date: "2025-04-02", value: 2000 },
+  { date: "2025-04-03", value: 2500 },
+  { date: "2025-04-04", value: 2700 },
+  { date: "2025-04-05", value: 3000 },
+  { date: "2025-04-06", value: 2800 },
+  { date: "2025-04-07", value: 3200 },
+  { date: "2025-04-08", value: 3500 },
+  { date: "2025-04-09", value: 4000 },
+  { date: "2025-04-10", value: 3700 },
+  { date: "2025-04-11", value: 3900 },
+];
