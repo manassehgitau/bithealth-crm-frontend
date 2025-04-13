@@ -8,7 +8,7 @@ function Sidebar() {
   return (
     <div className='bg-gray-100 text-gray-900 px-4 h-screen fixed z-10 lg:w-64 overflow-y-scroll no-scrollbar shadow-2xl dark:bg-dark-default dark:text-white dark:border-gray-900'>
       <div className='md:flex justify-center lg:justify-start items-center mt-7 mb-2'>
-        <img src="./assets/icons/bithealthNav.png" alt="BitHealth Logo" className='w-15 h-15 '/>
+        <img src="/bithealthNav.png" alt="BitHealth Logo" className='w-15 h-15 '/>
         <h2 className='font-bold text-2xl hidden lg:inline mt-2.5'>BitHealth</h2>
       </div>
         

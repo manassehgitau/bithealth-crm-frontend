@@ -1,6 +1,5 @@
 import React from 'react'
 import Sidebar from '../components/Sidebar'
-import ThemeContextProvider from '../context/ThemeContextProvider'
 import Navbar from '../components/Navbar'
 import AdminDashboardHero from './AdminDashboardHero'
 import Footer from '../components/Footer'
@@ -8,7 +7,6 @@ import Footer from '../components/Footer'
 
 function AdminPage() {
   return (
-    <ThemeContextProvider>
       <div className='font-roboto'>
         <div className='hidden md:block'>
           <Sidebar />
@@ -22,7 +20,6 @@ function AdminPage() {
           <Footer />
         </div>
       </div>
-    </ThemeContextProvider>
   )
 }
 

@@ -2,9 +2,8 @@ import React from 'react'
 import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import CreateProduct from './CreateProduct'
-
-function ProductCreatePage() {
+import UpdateProduct from './UpdateProduct'
+function ProductUpdatePage() {
   return (
       <div className='font-roboto'>
         <div className='hidden md:block'>
@@ -13,12 +12,12 @@ function ProductCreatePage() {
 
         <div className='grow md:ml-16 lg:ml-64 bg-gray-200 text-gray-900 dark:bg-dark-contrast dark:text-white'>
             <Navbar />
-            <CreateProduct/>
+            <UpdateProduct/>
             <Footer />
 
         </div>
       </div>
   )
 }
- export default ProductCreatePage
+ export default ProductUpdatePage
 
