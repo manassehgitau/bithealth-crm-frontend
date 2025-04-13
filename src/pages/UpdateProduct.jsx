@@ -187,9 +187,9 @@ const UpdateProduct = () => {
   );
 
   return (
-    <div className="">
+    <div className="py-10">
       <ToastContainer />
-      <div className="flex justify-center flex-col m-8 px-10 my-20 h-screen">
+      <div className="flex justify-center flex-col m-8 px-10 my-20 lg:h-screen">
         <h2 className="text-3xl font-bold mb-6 text-center text-gray-900 dark:text-white">
           Update Product
         </h2>

@@ -154,7 +154,7 @@ export default function CreateProduct() {
   );
 
   return (
-    <div className="flex justify-center flex-col m-8 px-10 h-screen">
+    <div className="flex justify-center flex-col m-8 px-10 py-25 lg:py-20 ">
       <ToastContainer />
       <div>
         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
@@ -253,7 +253,7 @@ export default function CreateProduct() {
         <div className="mt-4">
           <button
             type="submit"
-            className="w-full p-2 bg-blue-600 text-white rounded-lg"
+            className="w-full p-2 bg-blue-600 text-white rounded-2xl"
           >
             {loading ? "Creating..." : "Create Product"}
           </button>

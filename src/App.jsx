@@ -8,6 +8,9 @@ import ProductsDetailsPage from "./pages/ProductsDetailsPage";
 import ProductsUpdatePage from "./pages/ProductsUpdatePage";
 import EmployeeView from "./pages/EmployeeView";
 import ThemeContextProvider from './context/ThemeContextProvider'
+import CreateEmployeesPage from "./pages/CreateEmployeePage";
+import EmployeeDetailsPage from "./pages/EmployeeDetailsPage";
+import EmployeeUpdatePage from "./pages/EmployeeUpdatePage";
 
 
 function App() {
@@ -23,6 +26,9 @@ function App() {
             <Route path="/products/:id" element={<ProductsDetailsPage />} />
             <Route path="/product/update/:id" element={<ProductsUpdatePage />} />
             <Route path="/employees" element={<EmployeeView />} />
+            <Route path="/employees/create" element={<CreateEmployeesPage />} />
+            <Route path="/employees/:id" element={<EmployeeDetailsPage />} />
+            <Route path="/employees/update/:id" element={<EmployeeUpdatePage />} />
           </Routes>
         </Router>
       </ThemeContextProvider>
