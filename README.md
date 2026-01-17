@@ -107,7 +107,7 @@ Follow these instructions to set up and run the BitHealth CRM Frontend on your l
 
 Before you begin, ensure you have the following installed on your system:
 
-- [Node.js](https://nodejs.org/) (v14 or higher recommended)
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
 - [npm](https://www.npmjs.com/) (comes with Node.js) or [yarn](https://yarnpkg.com/)
 - [Git](https://git-scm.com/) for version control
  
