@@ -211,10 +211,11 @@ bithealth-crm-frontend/
 │   ├── context/        # React Context providers
 │   │   └── ThemeContextProvider.jsx
 │   ├── pages/          # Application pages/views
-│   │   ├── Admin Dashboard
-│   │   ├── Login & Authentication
-│   │   ├── Product Management (CRUD)
-│   │   └── Employee Management (CRUD)
+│   │   # Includes pages for:
+│   │   # - Admin Dashboard (dashboard with analytics)
+│   │   # - Authentication (login page)
+│   │   # - Product Management (CRUD operations)
+│   │   # - Employee Management (CRUD operations)
 │   ├── App.jsx         # Main application component
 │   ├── main.jsx        # Application entry point
 │   └── index.css       # Global styles
