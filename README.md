@@ -180,7 +180,7 @@ npm run lint
 
 <td align="center">
 <a href="https://github.com/manassehgitau">
-<img src="https://avatars.githubusercontent.com/u/manassehgitau?v=4" width="100px;" alt="Manasseh Gitau Profile Picture"/><br>
+<img src="https://avatars.githubusercontent.com/u/110011157?v=4" width="100px;" alt="Manasseh Gitau Profile Picture"/><br>
 <sub>
 <b>Manasseh Gitau</b>
 </sub>
@@ -200,8 +200,10 @@ bithealth-crm-frontend/
 │   ├── components/     # Reusable UI components
 │   │   ├── AreaChart.jsx
 │   │   ├── BarGraph.jsx
+│   │   ├── DetailsDashboardCards.jsx
 │   │   ├── Footer.jsx
 │   │   ├── Navbar.jsx
+│   │   ├── NavbarProfile.jsx
 │   │   ├── PieChartCard.jsx
 │   │   ├── Sidebar.jsx
 │   │   ├── Transactions.jsx
@@ -209,17 +211,10 @@ bithealth-crm-frontend/
 │   ├── context/        # React Context providers
 │   │   └── ThemeContextProvider.jsx
 │   ├── pages/          # Application pages/views
-│   │   ├── AdminPage.jsx
-│   │   ├── AdminDashboardHero.jsx
-│   │   ├── LoginPage.jsx
-│   │   ├── Products.jsx
-│   │   ├── ProductCreatePage.jsx
-│   │   ├── ProductsDetailsPage.jsx
-│   │   ├── ProductsUpdatePage.jsx
-│   │   ├── EmployeeView.jsx
-│   │   ├── CreateEmployeePage.jsx
-│   │   ├── EmployeeDetailsPage.jsx
-│   │   └── EmployeeUpdatePage.jsx
+│   │   ├── Admin Dashboard
+│   │   ├── Login & Authentication
+│   │   ├── Product Management (CRUD)
+│   │   └── Employee Management (CRUD)
 │   ├── App.jsx         # Main application component
 │   ├── main.jsx        # Application entry point
 │   └── index.css       # Global styles
